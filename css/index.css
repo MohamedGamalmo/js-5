@@ -1,0 +1,250 @@
+:root{
+    --black-color:#1E202B;
+    --blue-clor:#009AD8;
+}
+body{
+    
+    background-color: var(--black-color);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+   margin-right: 550px; 
+}
+.logo-img{
+    margin-left: 10%;
+}
+.logo-title {
+    margin-left: -100px;
+    font-size: 15px;
+    font-size: 1.1428571429em;
+    color: white;
+  }
+  
+.logo-description {
+    margin-left: -100px;
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+
+.main-nav{
+    background-color:var(--black-color);
+    height: 130px;
+    color: white;
+
+}
+.nav-link{
+    color: white;
+    
+}
+
+.nav-link:focus, .nav-link:hover {
+    background-color:var(--black-color);
+    border: var(--blue-clor) 2px solid;
+    color: var(--blue-clor);
+    border-radius: 50px;
+    padding: 2px 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:var(--black-color);
+    border: var(--blue-clor) 2px solid;
+    color: var(--blue-clor);
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+
+
+
+
+.page{
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/banner.png);
+    background-size: cover;
+}
+
+.input-location {
+    position: relative;
+    margin-left: 150px;
+    margin-bottom: 70px;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    border-radius: 30px;
+    border: none;
+}
+.btttn{
+    position: absolute;
+    top: 165px;
+    right: 250px;
+    background-color: var(--blue-clor);
+    border: 1px solid var(--blue-clor);
+    border-radius: 30px;
+    color: white;
+    padding: 10px 40px 10px 40px;
+}
+
+.items{
+    color: #bfc1c8;
+}
+.header{
+    padding-left: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D303D;
+    font-size: 14px;
+}
+
+.body-item{
+    padding-top: 30px;
+    padding-left: 15px;
+    background-color: #323544;
+}
+.country{
+    font-size: 20px;
+}
+.statu , .newStatus{
+    color: #009AD8;
+}
+.degree{
+    padding-left: 5px;
+    font-size: 90px;
+    color: white;
+}
+
+
+
+.items-2{
+    color: #bfc1c8;
+    justify-content: center;
+    text-align: center;
+}
+
+.items-2 .header{
+    padding-left: 5px;
+    padding: 5px;
+    justify-content: center;
+    background-color:var(--black-color);
+}
+.items-2 .body-item{
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 5px;
+    background-color: #262936;
+}
+.deg{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* contact page */
+.page-2{
+    color: white;
+}
+
+.to-home{
+    position: relative;
+    top: 50px;
+    margin-left: 180px;
+    width: 75%;
+    background-color: #323544;
+    padding: 20px;
+    border: 2px solid #323544;
+    border-radius:50px ;
+}
+.card{
+    margin-left: 200px;
+    padding: 5px;
+    position: relative;
+    top: 100px;
+    background-color: var(--black-color);
+    color: #bfc1c8;
+    background-color: #323544;
+    font-size: 14px;
+}
+.space{
+    width: 200px;
+    height: 200px;
+    
+}
+.content{
+    margin-left: 70px;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.content p{
+    color: #bfc1c8;
+}
+
+.form-design{
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--black-color);
+    border: 1px solid #868686;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 250px;
+}
+.text-design{
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--black-color);
+    border: 1px solid #868686;
+    color: white;
+    border-radius: 20px;
+    height: 150px;
+    width: 510px;
+}
+
+
+
+
+
+
+.fotter{
+
+    height: 250px;
+    margin-top: 350px;
+    background-color: #262936;
+    position: relative;
+}
+.btt-2{
+    margin: 70px;
+    margin-left: 220px;
+}
+.bttt-2{
+   position: absolute;
+   top: 70px;
+   right: 540px;
+   padding: 18px 20px;
+}
+.circile{
+    background-color: var(--black-color);
+    color: var(--blue-clor);
+    width: 40px;
+    height: 40px;
+   padding: 13px;
+}
+.circile:hover{
+    background-color: #009ad8;
+    color: var(--black-color);
+}
+.footer-p{
+    /* margin: -50px; */
+    color: #bfc1c8;
+    margin-left: 230px;
+}

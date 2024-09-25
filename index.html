@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+
+
+    <div class="main-nav p-4">
+        <nav class="navbar ">
+            <div class="container">
+
+                <a href="index.html">
+                    <img class="w-50 logo-img" src="https://routeweather.netlify.app/images/logo@2x.png" alt="logo">
+                    <div class="logo ">
+                        <h2 class="logo-title">Wheather</h2>
+                        <div class="logo-description">tagline goes here</div>
+                </a>
+            </div>
+
+
+            <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a href="index.html"><button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Home</button></a>
+                </li>
+                <li class="nav-item ms-2" role="presentation">
+                    <button class="nav-link" id="pills-News-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-News" type="button" role="tab" aria-controls="pills-News"
+                        aria-selected="false">News</button>
+                </li>
+                <li class="nav-item ms-2" role="presentation">
+                    <button class="nav-link" id="pills-cameras-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-cameras" type="button" role="tab" aria-controls="pills-cameras"
+                        aria-selected="false">Live cameras</button>
+                </li>
+                <li class="nav-item ms-2" role="presentation">
+                    <button class="nav-link" id="pills-Photos-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-Photos" type="button" role="tab" aria-controls="pills-Photos"
+                        aria-selected="false">Photos</button>
+                </li>
+                <li class="nav-item ms-2" role="presentation">
+                    <a href="contact.html"><button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Contact</button></a>
+                </li>
+
+            </ul>
+            
+    </div>
+    </nav>
+</div>
+
+    <div class="page">
+        <form class="p-4">
+            <input type="text" placeholder="find your location" id="search" class=" input-location w-75 text-white">
+            <input class="btttn" type="button" value="Find" id="submit">
+        </form>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="items rounded-3">
+                        <div class="header">
+                            <div class="dayName"> </div>
+                          <div class="number"> <span class="dayNumber"></span> <span class="month1 "></span></div>
+                            
+                            
+                        </div>
+                        <div class="body-item pb-4">
+                            <div class="country"> </div>
+                            <div class="degree"><span class="big-deg"></span>℃</div>
+                            <div class="icon-1"><img src="" class="d-block w-25 icon1" alt="icon"></div>
+                            <div class="statu"><span> </span></div>
+                            
+                            <br><br>
+                            <i class="fa-solid fa-umbrella  ps-3"> </i> 20%
+
+                            <i class="fa-solid fa-wind ps-3"></i> 18km/h
+
+                            <i class="fa-regular fa-compass  ps-3"></i> east
+
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="items-2">
+                        <div class="header">
+                            <div class="newDay"> </div>
+                        </div>
+                        <div class="body-item pb-4">
+                            <div class="new-Icon"><img src="" class=" w-25 newIcon" alt="icon"></div>
+                            <span class="deg"> </span><span style="font-size: 30px; color: white;">℃</span>
+                            <div class="smallDeg"></div><br>
+                            <div class="newStatus"><span> </span></div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                           
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="items-2">
+                        <div class="header" style="background-color: #2D303D;">
+                            <div class="newDay"></div>
+    
+                        </div>
+                        <div class="body-item pb-4" style="background-color: #323544;">
+                            <div class="new-Icon"> <img src="" class=" w-25 newIcon" alt="icon"></div>
+                            <span class="deg"> </span><span style="font-size: 30px; color: white;">℃</span>
+                            <div class="smallDeg"> </div><br>
+                            <div class="newStatus"><span> </span></div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            
+                           
+
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="fotter">
+        <input type="text" placeholder="Enter your email to subscribe.." id="search" class="btt-2 input-location w-50">
+        <button class=" bttt-2 btn ms-2 btn-info text-white rounded-5">Subscribe</button>
+        <i class="fa-brands fa-facebook-f circile rounded-circle"></i>
+        <i class="fa-brands fa-twitter circile rounded-circle"></i>
+        <i class="fa-brands fa-goodreads-g circile rounded-circle"></i>
+        <i class="fa-brands fa-pinterest circile rounded-circle"></i>
+        <p class="footer-p"> Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
